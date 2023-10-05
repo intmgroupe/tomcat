@@ -107,6 +107,10 @@
     <section name="Tomcat 10.0.31-edf (markt)" rtext="">
       <subsection name="Other">
         <changelog>
+          <add>
+            Improve handling of failures within <code>recycle()</code> methods.
+            (markt)
+          </add>
           <fix>
             Align validation of HTTP trailer fields with standard fields. (markt)
           </fix>
